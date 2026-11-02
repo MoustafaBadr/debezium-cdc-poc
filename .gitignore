@@ -1,0 +1,24 @@
+﻿# Secrets and local environment
+.env
+.env.*
+!.env.example
+**/*-secret.json
+**/*-local.json
+**/secrets/
+
+# Local configuration containing credentials
+debezium/oracle-source.json
+
+# Logs
+*.log
+logs/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+# Java libraries (not required in this repository)
+*.jar
+# Local documentation - not published
+docs/oracle_debezium_source_setup_egyptian_arabic_RTL.docx
